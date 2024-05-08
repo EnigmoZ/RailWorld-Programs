@@ -1,3 +1,5 @@
+package Employee;
+
 import java.util.Scanner;
 
 public class Main{
@@ -16,6 +18,7 @@ public class Main{
         adr.setCity(city);
         adr.setPin(pin);
         emp.setAddress(adr);
+        System.out.println(emp.toString());
         System.out.println(emp.getName() + " " + emp.getAge() + " " + emp.getAddress().getCity() + "," + emp.getAddress().getPin());
         sc.close();
     }
