@@ -1,3 +1,5 @@
+package Employee;
+
 public class Employee{
     private String name;
     private int age;
@@ -27,5 +29,12 @@ public class Employee{
         this.age = age;
     }
 
-
+    @Override
+    public String toString() {
+        return "Employee.Employee{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", address=" + address +
+                '}';
+    }
 }
