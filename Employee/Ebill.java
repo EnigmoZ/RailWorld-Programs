@@ -1,4 +1,5 @@
-import javax.sound.midi.Soundbank;
+package Employee;
+
 import java.util.Scanner;
 
 public class Ebill {
